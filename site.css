@@ -1,0 +1,62 @@
+.titre {
+    color: rgb(99, 99, 99)
+}
+
+.box {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.lum {
+    background-color: aqua;
+}
+
+.ouvert {
+    background-color: green;
+
+}
+
+.ferme {
+    background-color: red;
+}
+
+.encour {
+    background-color: orange;
+}
+
+.boxinput{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(66, 65, 65);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.boxtitle{
+    margin: 1px 0 1px 0;
+}
+.input{
+    justify-content: center;
+    display: flex;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(142, 133, 231);
+}
+.btn{
+    transition: 500ms;
+    background-color: lightblue;
+    border: none;
+    margin: 0 3px 0 3px;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 10px;
+}
+.group{
+    justify-content: center;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
